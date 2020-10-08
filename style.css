@@ -1,0 +1,40 @@
+/* General */
+h2,
+p {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+/* Custom Checkbox */
+.ck-button {
+    background-color: #427ef5;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    overflow: auto;
+    color: #fff;
+    width: 30%;
+    margin: 0 auto 20px auto;
+}
+
+.ck-button:hover {
+    background: #429cf5;
+}
+
+.ck-button>label>span {
+    display: block;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.ck-button>label>input {
+    position: absolute;
+    top: -20px;
+}
+
+.ck-button input:checked+span {
+    background-color: #d9dede;
+    color: #fff;
+}
